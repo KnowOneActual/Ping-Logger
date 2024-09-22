@@ -1,3 +1,4 @@
+I discovered this only works on Mac. I am working on getting this running on Windows.
 
 # Ping with Progress Percentage
 
@@ -11,7 +12,7 @@ This Python script allows you to ping a specified host multiple times while disp
 
 ## Requirements
 
-- Python 3.x
+- Python 3. x
 - No additional libraries are required, as the script uses built-in modules.
 
 ## Usage
