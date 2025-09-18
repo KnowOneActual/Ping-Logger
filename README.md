@@ -17,6 +17,21 @@ This Python script lets you ping a host multiple times and see the progress in r
 * Cross-platform: Works on Windows, macOS, and Linux.
 
 
+## When to Use This Script
+This tool is especially useful for diagnosing network issues that happen intermittently. A standard four-ping test might not be enough to catch the problem, but running 500 pings and logging the results can reveal patterns of packet loss or high latency.
+
+Other use cases include:
+
+* Monitoring Server Uptime: Check the stability of a server over an extended period.
+
+* Testing ISP Stability: Log pings to a reliable host (like google.com) to see if your internet connection is dropping.
+
+* Diagnosing Network Hardware: Run a continuous ping to a router or switch to see if it becomes unresponsive.
+
+* Checking Gaming Latency: Test your connection to a game server for lag spikes before you play.
+
+
+
 ## Requirements
 
 
