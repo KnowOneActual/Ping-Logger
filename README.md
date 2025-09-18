@@ -1,50 +1,57 @@
-I discovered this only works on Mac. I am working on getting this running on Windows.
+# Ping Logger with Real-Time Progress
 
-# Ping with Progress Percentage
+![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Platform](https://img.shields.io/badge/platform-windows%20%7C%20macos%20%7C%20linux-lightgrey.svg)
 
-This Python script allows you to ping a specified host multiple times while displaying the progress percentage of the operation. The results of the ping operation are saved to a text file on your desktop for later review.
+This Python script lets you ping a host multiple times and see the progress in real-time. It works on Windows, macOS, and Linux, and it saves the full ping output to a text file on your desktop.
+
 
 ## Features
 
-- Pings a specified host a given number of times.
-- Displays a progress percentage indicating how many pings have been completed.
-- Saves the raw output of the ping command to a text file on the desktop.
+
+
+* Pings a host a specific number of times.
+* Displays a real-time progress bar.
+* Saves the detailed ping results to a text file.
+* Cross-platform: Works on Windows, macOS, and Linux.
+
 
 ## Requirements
 
-- Python 3. x
-- No additional libraries are required, as the script uses built-in modules.
 
-## Usage
 
-1. **Run the Script**:
-   Open a terminal or command prompt and execute the following command:
+* Python 3.x
 
-   ```bash
-   python ping_logger.py
-   ```
 
-2. **Input Parameters**:
-   - Enter the host you want to ping (e.g., `google.com`).
-   - Enter the number of pings you want to send (e.g., `4`).
+## How to Use
 
-3. **View Results**:
-   Once the pings are completed, check your desktop for a text file named `ping_output_<host>_<timestamp>.txt`, which contains the detailed results of the ping operation.
+
+
+1. **Run the script from your terminal:** 
+```bash
+python ping_logger.py 
+```
+
+
+2. **Enter the host you want to ping** (e.g., google.com).
+3. **Enter how many times you want to ping** (e.g., 10).
+
+The script will start pinging and show you the progress. Once it's done, you'll find a text file named ping_output_&lt;host>_&lt;timestamp>.txt on your desktop with the results.
+
 
 ## Example
 
-```bash
-Enter the host to ping: google.com
-Enter the number of pings: 4
-Pinging...
-Progress: 100.00%
-Ping operation completed.
-Output saved to /Users/yourusername/Desktop/ping_output_google.com_20240908_063000.txt
-```
+Enter the host to ping: google.com 
+Enter the number of pings: 4 
+Pinging google.com 4 times... 
+Progress: 100.00% 
+Ping operation completed. 
+ 
+Output saved to /Users/yourusername/Desktop/ping_output_google.com_20250918_143800.txt 
 
-## Notes
 
-- The progress percentage is displayed in real-time as the pings are processed.
-- The output text file includes a timestamp and the number of pings requested.
 
 ## License
+
+This project is licensed under the MIT License.
